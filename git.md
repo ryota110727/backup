@@ -69,4 +69,9 @@ git log --online //一行で表示
 
 git log -p index.html //ファイルの差分を見ることができる
 
-## 
+git log -n 3 //最新のコミット三つ分を表示する
+
+## git diff
+ローカルとステージング領域の差分を確認するコマンド（addしたやつとlocalのやつの差分）
+
+add, commitする前に確認する
