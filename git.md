@@ -94,3 +94,14 @@ git push origin ブランチ名
 
 ## コミットしてしまったファイルを削除から外す
 git rmコマンドでコミットしたファイルをgitの管理から外す
+
+## 元の状態に戻す
+git reset HEAD ファイル名
+
+* ローカルにファイルを戻す
+    git checkout ファイル名
+
+## ファイルを残してgitの管理から削除する
+git rm --catched ファイル名
+
+
