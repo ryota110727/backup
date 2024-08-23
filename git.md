@@ -115,3 +115,10 @@ git move 旧ファイル 新ファイル
 git config --global alias.ci commit  commitにciというエイリアスをつけている
 
 git config --glabal alias.st status statusにstというエイリアスをつけている。
+
+## ファイルへの変更を取り消す
+git checkout --<ファイル名>
+
+git checkout --<ディレクトリ名>
+
+ワークツリーの状態をステージの状態と一緒にする
