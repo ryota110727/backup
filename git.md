@@ -107,3 +107,11 @@ git reset HEAD ファイル名
 git rm --catched ファイル名
 
 
+## ファイルの移動を記録する
+git move 旧ファイル 新ファイル
+
+
+## コマンドにエイリアスをつける
+git config --global alias.ci commit  commitにciというエイリアスをつけている
+
+git config --glabal alias.st status statusにstというエイリアスをつけている。
