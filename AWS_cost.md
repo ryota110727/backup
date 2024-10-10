@@ -44,3 +44,5 @@ billing機能により請求額に対するアラーム設定が可能
 
 ## AWS Instance Scheduler
 ec2などの開始スケジュールと停止スケジュールを設定してAWSリソースコストを管理する。AWS lambda関数の機能
+
+## cloudwatchアラーム
